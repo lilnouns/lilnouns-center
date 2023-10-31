@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.1] - 2023-10-31
+
+### Refactor
+
+- Add GitHub and custom funding options
+
+### Documentation
+
+- Add issue templates for bug report and feature request
+
+### Miscellaneous Tasks
+
+- Add stale bot configuration file
+- Add custom Dependabot configuration file
+- Add GitHub Actions for CI/CD process
+
 ## [1.0.0-alpha.0] - 2023-10-31
 
 ### Miscellaneous Tasks
