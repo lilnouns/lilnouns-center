@@ -84,15 +84,15 @@ jobs:
 
       # Installs all dependencies specified in the project's package.json file.
       - name: Install dependencies using pnpm
-        run: yarn install
+        run: pnpm install
 
       # This compiles the application in optimized production mode and output it to the build folder.
       - name: Build the application and export it
-        run: yarn run build
+        run: pnpm run build
 
       # Runs unit tests for the application using Jest.
       - name: Execute tests using Jest
-        run: yarn run test
+        run: pnpm run test
 
   release:
     name: Create Release
