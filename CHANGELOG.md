@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.2] - 2023-10-31
+
+### Refactor
+
+- Add `.npmrc` file to control npm configurations
+
+### Miscellaneous Tasks
+
+- Switch package manager from pnpm to yarn temporary
+
 ## [1.0.0-alpha.1] - 2023-10-31
 
 ### Refactor
