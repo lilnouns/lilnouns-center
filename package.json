@@ -27,7 +27,7 @@
     "jszip": "3.10.1",
     "next": "latest",
     "notion-client": "4.13.0",
-    "notion-types": "4.10.0",
+    "notion-types": "6.16.0",
     "notion-utils": "4.12.0",
     "prettier": "2.7.1",
     "react": "18.2.0",
