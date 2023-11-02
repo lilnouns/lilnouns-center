@@ -120,8 +120,8 @@ dependencies:
     specifier: 9.0.1
     version: 9.0.1
   uuidv4:
-    specifier: 6.2.12
-    version: 6.2.12
+    specifier: 6.2.13
+    version: 6.2.13
   wagmi:
     specifier: 0.4.5
     version: 0.4.5(ethers@5.6.8)(react-dom@18.2.0)(react@18.2.0)
@@ -1676,8 +1676,8 @@ packages:
     resolution: {integrity: sha512-EwmlvuaxPNej9+T4v5AuBPJa2x2UOJVdjCtDHgcDqitUeOtjnJKJ+apYjVcAoBEMjKW1VVFGZLUb5+qqa09XFA==}
     dev: false
 
-  /@types/uuid@8.3.1:
-    resolution: {integrity: sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==}
+  /@types/uuid@8.3.4:
+    resolution: {integrity: sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==}
     dev: false
 
   /@types/ws@7.4.7:
@@ -6352,22 +6352,9 @@ packages:
       p-map: 5.5.0
     dev: false
 
-  /notion-types@4.10.0:
-    resolution: {integrity: sha512-+vGbzPCdPzunn6W8U/ugKCv6dP52FXSBHlS4ZeOtm4YeHxeXtglBeUDjTSsUix8+/j+aennL/YxzeeFEB0m5pQ==}
-    engines: {node: '>=12'}
-    dev: false
-
   /notion-types@6.16.0:
     resolution: {integrity: sha512-Cv83GaAczx57q1qsnuG8DHOuOb63c83u9LX2IainG5aqBEB0GUuLZ4DUQfB6MaXt+FMY9fO+KTgPeZWwX9hbrQ==}
     engines: {node: '>=12'}
-    dev: false
-
-  /notion-utils@4.12.0:
-    resolution: {integrity: sha512-Z6xokiNMmTIQcDHgUOv62PIZv7wqVN7b4aa3uTkKgnaBPXtGB1ljaESoQ+DVlWiUnO2uUoKmPQe1aMjYG1yfmw==}
-    engines: {node: '>=12'}
-    dependencies:
-      notion-types: 4.10.0
-      p-queue: 6.6.2
     dev: false
 
   /notion-utils@6.16.0:
@@ -6530,11 +6517,6 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /p-finally@1.0.0:
-    resolution: {integrity: sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==}
-    engines: {node: '>=4'}
-    dev: false
-
   /p-limit@2.3.0:
     resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
     engines: {node: '>=6'}
@@ -6577,27 +6559,12 @@ packages:
       aggregate-error: 4.0.1
     dev: false
 
-  /p-queue@6.6.2:
-    resolution: {integrity: sha512-RwFpb72c/BhQLEXIZ5K2e+AhgNVmIejGlTgiB9MzZ0e93GRvqZ7uSi0dvRF7/XIXDeNkra2fNHBxTyPDGySpjQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      eventemitter3: 4.0.7
-      p-timeout: 3.2.0
-    dev: false
-
   /p-queue@7.4.1:
     resolution: {integrity: sha512-vRpMXmIkYF2/1hLBKisKeVYJZ8S2tZ0zEAmIJgdVKP2nq0nh4qCdf8bgw+ZgKrkh71AOCaqzwbJJk1WtdcF3VA==}
     engines: {node: '>=12'}
     dependencies:
       eventemitter3: 5.0.1
       p-timeout: 5.1.0
-    dev: false
-
-  /p-timeout@3.2.0:
-    resolution: {integrity: sha512-rhIwUycgwwKcP9yTOOFK/AKsAopjjCakVqLHePO3CC6Mir1Z99xT+R63jZxAT5lFZLa2inS5h+ZS2GvR99/FBg==}
-    engines: {node: '>=8'}
-    dependencies:
-      p-finally: 1.0.0
     dev: false
 
   /p-timeout@5.1.0:
@@ -8785,10 +8752,10 @@ packages:
     hasBin: true
     dev: false
 
-  /uuidv4@6.2.12:
-    resolution: {integrity: sha512-UnN4ThIYWhv3ZUE8UwDnnCvh4JafCNu+sQkxmLyjCVwK3rjLfkg3DYiEv6oCMDIAIVEDP4INg4kX/C5hKaRzZA==}
+  /uuidv4@6.2.13:
+    resolution: {integrity: sha512-AXyzMjazYB3ovL3q051VLH06Ixj//Knx7QnUSi1T//Ie3io6CpsPu9nVMOx5MoLWh6xV0B9J0hIaxungxXUbPQ==}
     dependencies:
-      '@types/uuid': 8.3.1
+      '@types/uuid': 8.3.4
       uuid: 8.3.2
     dev: false
 
