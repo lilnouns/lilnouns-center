@@ -24,8 +24,8 @@ dependencies:
     specifier: 2.2.13
     version: 2.2.13
   '@rainbow-me/rainbowkit':
-    specifier: 0.2.1
-    version: 0.2.1(@types/react@17.0.37)(ethers@5.6.8)(react-dom@18.2.0)(react@18.2.0)(wagmi@0.4.5)
+    specifier: 0.3.7
+    version: 0.3.7(@types/react@17.0.37)(ethers@5.6.8)(react-dom@18.2.0)(react@18.2.0)(wagmi@0.4.5)
   '@tailwindcss/aspect-ratio':
     specifier: 0.4.0
     version: 0.4.0(tailwindcss@3.3.5)
@@ -1391,14 +1391,14 @@ packages:
     resolution: {integrity: sha512-HaW78NszGzRZd9SeoI3JD11JqY+lubnaOx7Pewj5pfjqWXOEATpeKIFb9Z4t2WBUK2iryiXX3lzWwmYWgUL0Ug==}
     dev: false
 
-  /@rainbow-me/rainbowkit@0.2.1(@types/react@17.0.37)(ethers@5.6.8)(react-dom@18.2.0)(react@18.2.0)(wagmi@0.4.5):
-    resolution: {integrity: sha512-l6KVP/jexVrncjp0OYu/9MReI+VvZhFfpyL3YHvsStPEX4AIhHt2sfnU60iqigRWfh/lxmGmsqGLa7RflQSXUA==}
+  /@rainbow-me/rainbowkit@0.3.7(@types/react@17.0.37)(ethers@5.6.8)(react-dom@18.2.0)(react@18.2.0)(wagmi@0.4.5):
+    resolution: {integrity: sha512-xRAPOg7x5xbOwZRus8f94gbhRSW85jIT+du/ywv0jElXb5CdwRJKkA/i1qJdFlUg41IZgdnKzgO7lgcnw1fzNw==}
     engines: {node: '>=12.4'}
     peerDependencies:
       ethers: '>=5.5.1'
       react: '>=17'
       react-dom: '>=17'
-      wagmi: ^0.4.2
+      wagmi: 0.4.x
     dependencies:
       '@vanilla-extract/css': 1.7.0
       '@vanilla-extract/dynamic': 2.0.2
@@ -1408,7 +1408,7 @@ packages:
       qrcode: 1.5.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-remove-scroll: 2.5.3(@types/react@17.0.37)(react@18.2.0)
+      react-remove-scroll: 2.5.4(@types/react@17.0.37)(react@18.2.0)
       wagmi: 0.4.5(ethers@5.6.8)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
@@ -7316,8 +7316,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /react-remove-scroll@2.5.3(@types/react@17.0.37)(react@18.2.0):
-    resolution: {integrity: sha512-NQ1bXrxKrnK5pFo/GhLkXeo3CrK5steI+5L+jynwwIemvZyfXqaL0L5BzwJd7CSwNCU723DZaccvjuyOdoy3Xw==}
+  /react-remove-scroll@2.5.4(@types/react@17.0.37)(react@18.2.0):
+    resolution: {integrity: sha512-xGVKJJr0SJGQVirVFAUZ2k1QLyO6m+2fy0l8Qawbp5Jgrv3DeLalrfMNBFSlmz5kriGGzsVBtGVnf4pTKIhhWA==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
