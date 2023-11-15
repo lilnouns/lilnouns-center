@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.4] - 2023-11-15
+
+### Miscellaneous Tasks
+
+- Switch from `yarn` to `pnpm` in `build` file
+
 ## [1.0.0-alpha.3] - 2023-10-31
 
 ### Miscellaneous Tasks
