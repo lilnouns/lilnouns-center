@@ -53,7 +53,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/line-clamp": "0.4.4",
-    "@types/react": "18.2.42",
+    "@types/react": "18.2.45",
     "autoprefixer": "10.4.16",
     "eslint": "8.55.0",
     "eslint-config-next": "14.0.4",
