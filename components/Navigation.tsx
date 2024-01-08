@@ -1,13 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { Fragment, useState } from "react";
-import { Dialog, Transition } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import React, {Fragment, useState} from "react";
+import {Dialog, Transition} from "@headlessui/react";
+import {Bars3Icon, XMarkIcon} from "@heroicons/react/24/outline";
 import Nav from "./Nav";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { DocSearch } from "@docsearch/react";
+import {useRouter} from "next/router";
 import "@docsearch/css";
-import DarkModeToggle from "./DarkModeToggle";
 
 const Navigation = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);

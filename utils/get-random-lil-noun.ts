@@ -1,6 +1,7 @@
-import { images, bgcolors, palette } from './image-data.json';
-import { buildSVG } from './svg-builder';
-import { NounData, NounSeed } from './types';
+import {bgcolors, images, palette} from './image-data.json';
+import {buildSVG} from './svg-builder';
+import {NounData, NounSeed} from './types';
+
 const { bodies, accessories, heads, glasses } = images;
 
 /**

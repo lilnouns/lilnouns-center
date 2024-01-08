@@ -1,4 +1,4 @@
-import { DecodedImage } from './types';
+import {DecodedImage} from './types';
 
 /**
  * Decode the RLE image data into a format that's easier to consume in `buildSVG`.

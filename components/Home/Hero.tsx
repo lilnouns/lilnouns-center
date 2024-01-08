@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import algoliasearch from "algoliasearch/lite";
-import { autocomplete, getAlgoliaResults } from "@algolia/autocomplete-js";
 import "@algolia/autocomplete-theme-classic";
 import NounishButton from "./NounishButton";
 import Footer from "../Footer";

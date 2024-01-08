@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Title from "../components/Title";
-import { v4 as uuidv4 } from "uuid";
+import {v4 as uuidv4} from "uuid";
 import traits from "../api/traits.json";
 
 import Subheader from "../components/Subheader";

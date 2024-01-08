@@ -4,7 +4,6 @@ import PageContent from "../../components/Layout/PageContent";
 import PageHeader from "../../components/Layout/PageHeader";
 import TextContent from "../../components/Layout/TextContent";
 import Link from "../../components/Link";
-import Table from "../../components/nouners/Table";
 import Subheader from "../../components/Subheader";
 import Title from "../../components/Title";
 

@@ -1,17 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/Header";
 import XSmall from "../components/Project/XSmall";
 import Title from "../components/Title";
 import Subheader from "../components/Subheader";
-import { useRouter } from "next/router";
+import {useRouter} from "next/router";
 import PageContent from "../components/Layout/PageContent";
 import PageHeader from "../components/Layout/PageHeader";
 import Button from "../components/common/Button";
-import {
-  fetchProjectDataFromAPI,
-  PROJECT_FORM_ID,
-} from "../utils/project-form-data-fetching";
+import {fetchProjectDataFromAPI, PROJECT_FORM_ID,} from "../utils/project-form-data-fetching";
 
 export const getStaticProps = async () => {
   let projectDataFromAPI = [];

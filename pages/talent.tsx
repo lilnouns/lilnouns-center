@@ -1,21 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Header from "../components/Header";
-import { v4 as uuidv4 } from "uuid";
+import {v4 as uuidv4} from "uuid";
 import Title from "../components/Title";
-import {
-  FaTwitter as TwitterIcon,
-  FaDiscord as DiscordIcon,
-} from "react-icons/fa";
+import {FaDiscord as DiscordIcon, FaTwitter as TwitterIcon,} from "react-icons/fa";
 import Subheader from "../components/Subheader";
 import PageContent from "../components/Layout/PageContent";
 import PageHeader from "../components/Layout/PageHeader";
 import Button from "../components/common/Button";
-import {
-  fetchTalentFormData,
-  TALENT_FORM_ID,
-} from "../utils/talent-form-data-fetching";
-import { generateRandomLilNoun } from "../utils/get-random-lil-noun";
+import {fetchTalentFormData, TALENT_FORM_ID,} from "../utils/talent-form-data-fetching";
+import {generateRandomLilNoun} from "../utils/get-random-lil-noun";
 
 export const getStaticProps = async () => {
   let talentDataFromAPI = [];
