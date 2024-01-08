@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Nav from "./Nav";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -61,7 +61,7 @@ const Navigation = () => {
                     onClick={() => setSidebarOpen(false)}
                   >
                     <span className="sr-only">Close sidebar</span>
-                    <XIcon className="h-6 w-6 black-text " aria-hidden="true" />
+                    <XMarkIcon className="h-6 w-6 black-text " aria-hidden="true" />
                   </button>
                 </div>
               </Transition.Child>
@@ -87,13 +87,13 @@ const Navigation = () => {
               onClick={() => setSidebarOpen(true)}
             >
               <span className="sr-only">Open sidebar</span>
-              <MenuIcon className="h-6 w-6" aria-hidden="true" />
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
 
           {/* <Link passHref href="/">
             <div className="flex self-center  items-center cursor-pointer text-nouns  transition text-blue-base hover:text-nouns-bg-blue  dark:hover:text-blue-base xs:text-xl sm:text-3xl gap-2">
-               eslint-disable-next-line @next/next/no-img-element 
+               eslint-disable-next-line @next/next/no-img-element
               <img
                 src="/earth.gif"
                 alt="earth"
