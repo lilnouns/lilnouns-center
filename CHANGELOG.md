@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.7] - 2024-01-08
+
+### Documentation
+
+- Add some badges to the project readme file
+
+### Miscellaneous Tasks
+
+- Add new git flow workflow for handling pull requests
+- Change `next` version to specific version
+
+### Revert
+
+- Bump typescript from 4.5.2 to 5.3.3 (#77)
+
 ## [1.0.0-alpha.6] - 2023-12-11
 
 ### Bug Fixes
