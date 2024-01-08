@@ -20,9 +20,9 @@ const { bodies, accessories, heads, glasses } = images;
   };
 
   /**
- * Generate a random Noun seed
- * @param seed The Noun seed
- */
+   * Generate a random Noun seed
+   * @param randomNumberGenerator
+   */
 export const getRandomNounSeed = (randomNumberGenerator: () => number): NounSeed => {
     return {
       background: Math.floor(randomNumberGenerator() * bgcolors.length),
@@ -43,11 +43,11 @@ export const generateRandomLilNoun = (randomSeed: number) => {
     return buildSVG(data.parts, palette, data.background);
 }
 
-function mulberry32(a) {
-    return function() {
-      var t = a += 0x6D2B79F5;
-      t = Math.imul(t ^ t >>> 15, t | 1);
-      t ^= t + Math.imul(t ^ t >>> 7, t | 61);
-      return ((t ^ t >>> 14) >>> 0) / 4294967296;
+function mulberry32(a: number) {
+    return function () {
+        let t = a += 0x6D2B79F5;
+        t = Math.imul(t ^ t >>> 15, t | 1);
+        t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+        return ((t ^ t >>> 14) >>> 0) / 4294967296;
     }
 }
