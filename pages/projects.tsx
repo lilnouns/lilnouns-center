@@ -21,7 +21,7 @@ export const getStaticProps = async () => {
     console.log(e);
   }
 
-  console.log(projectDataFromAPI);
+  // console.log(projectDataFromAPI);
   return {
     props: { projects: projectDataFromAPI },
     revalidate: 1
