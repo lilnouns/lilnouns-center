@@ -1,21 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import Header from "../components/Header";
 import XSmall from "../components/Project/XSmall";
 import Title from "../components/Title";
 import Subheader from "../components/Subheader";
-import { useRouter } from "next/router";
-import Link from "next/link";
+import {useRouter} from "next/router";
 import PageContent from "../components/Layout/PageContent";
 import PageHeader from "../components/Layout/PageHeader";
 import Button from "../components/common/Button";
-import {
-  fetchProjectDataFromAPI,
-  PROJECT_FORM_ID,
-} from "../utils/project-form-data-fetching";
-import Image from "next/image";
+import {fetchProjectDataFromAPI, PROJECT_FORM_ID,} from "../utils/project-form-data-fetching";
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async () => {
   let projectDataFromAPI = [];
   try {
     projectDataFromAPI = await fetchProjectDataFromAPI();
@@ -23,7 +18,7 @@ export const getStaticProps = async (context) => {
     console.log(e);
   }
 
-  console.log(projectDataFromAPI);
+  // console.log(projectDataFromAPI);
   return {
     props: { projects: projectDataFromAPI },
     revalidate: 1
@@ -87,7 +82,7 @@ const Projects = ({ projects }) => {
         setIsLoading(false);
       } else {
         setFilteredProjects(
-          projects.filter((p) =>
+          projects.filter((p: { categories: string | string[]; }) =>
             p.categories.includes(
               getFilterKeyFromCategory(query.category as string)
             )
@@ -96,10 +91,12 @@ const Projects = ({ projects }) => {
         setIsLoading(false);
       }
     }
-  }, [query.category]);
+  }, [getFilterKeyFromCategory, projects, query.category]);
 
-  const handleClick = (e) => {
-    const curr = e.target.id;
+  const handleClick = (e: React.MouseEvent<HTMLInputElement>) => {
+    const target: Element = e.target as Element
+
+    const curr = target.id;
 
     setProjectsText(getProjectsText(curr));
 

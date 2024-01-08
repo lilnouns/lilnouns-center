@@ -1,10 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Disclosure } from "@headlessui/react";
+import {Disclosure} from "@headlessui/react";
 import nav from "../api/nav2.json";
-import { v4 as uuidv4 } from "uuid";
+import {v4 as uuidv4} from "uuid";
 import Link from "next/link";
-import DarkModeToggle from "./DarkModeToggle";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.8] - 2024-01-08
+
+### Bug Fixes
+
+- Disable `projectDataFromAPI` logs on projects
+- Disable console logs on funding page
+
+### Refactor
+
+- Migrate Heroicons to the version two
+- Remove `@tailwindcss/line-clamp` plugin as it is now included by default
+- Improve projects page and solve some minor issues
+- Update `getRandomNounSeed` to improve types
+- Improve talent page imports and remove unused variables
+- Improve code readability bby optimize imports
+- Move `utils` file to `utils/index` path
+- Move source codes to the `src` folder
+
 ## [1.0.0-alpha.7] - 2024-01-08
 
 ### Documentation

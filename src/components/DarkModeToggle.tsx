@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { Switch } from "@headlessui/react";
-import { useEffect, useState } from "react";
+import {Switch} from "@headlessui/react";
+import {useEffect, useState} from "react";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

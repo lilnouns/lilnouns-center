@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import React from "react";
 
 const XSmall = ({ project }) => {
@@ -11,7 +10,7 @@ const XSmall = ({ project }) => {
             {project.title}
           </div>
           {
-            project.image && 
+            project.image &&
           <img
             className="object-cover w-full h-full"
             src={project.image}

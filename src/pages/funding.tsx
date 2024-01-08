@@ -93,7 +93,7 @@ export const getStaticProps = async (context) => {
 
 const graphAPIResult = await graphResponse.json();
 
-console.log(graphAPIResult.data.proposals[0]);
+// console.log(graphAPIResult.data.proposals[0]);
 return {
   props: {
     proposalThreshold: graphAPIResult.data.proposals[0].proposalThreshold
