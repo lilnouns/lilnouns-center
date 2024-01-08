@@ -7,7 +7,6 @@ import {
   FaTwitter as TwitterIcon,
   FaDiscord as DiscordIcon,
 } from "react-icons/fa";
-import { getRandomNounPic } from "../utils";
 import Subheader from "../components/Subheader";
 import PageContent from "../components/Layout/PageContent";
 import PageHeader from "../components/Layout/PageHeader";
@@ -18,7 +17,7 @@ import {
 } from "../utils/talent-form-data-fetching";
 import { generateRandomLilNoun } from "../utils/get-random-lil-noun";
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async () => {
   let talentDataFromAPI = [];
   try {
     talentDataFromAPI = await fetchTalentFormData();
