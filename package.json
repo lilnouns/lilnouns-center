@@ -13,7 +13,7 @@
     "@algolia/autocomplete-js": "1.13.0",
     "@algolia/autocomplete-theme-classic": "1.13.0",
     "@docsearch/react": "3.5.2",
-    "@headlessui/react": "1.7.17",
+    "@headlessui/react": "1.7.18",
     "@heroicons/react": "2.1.1",
     "@notionhq/client": "2.2.14",
     "@rainbow-me/rainbowkit": "0.3.7",
