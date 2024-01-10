@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0-alpha.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,13 +13,13 @@
     "@algolia/autocomplete-js": "1.13.0",
     "@algolia/autocomplete-theme-classic": "1.13.0",
     "@docsearch/react": "3.5.2",
-    "@headlessui/react": "1.7.17",
+    "@headlessui/react": "1.7.18",
     "@heroicons/react": "2.1.1",
     "@notionhq/client": "2.2.14",
     "@rainbow-me/rainbowkit": "0.3.7",
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@types/jsonwebtoken": "9.0.5",
-    "algoliasearch": "4.22.0",
+    "algoliasearch": "4.22.1",
     "axios": "1.6.5",
     "cookie": "0.6.0",
     "dotenv": "16.3.1",
