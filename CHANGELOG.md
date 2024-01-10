@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0-alpha.8] - 2024-01-08
+## [1.0.0-alpha.9] - 2024-01-10
+
+### Documentation
+
+- Add wakatime badge to the project
+
+### Miscellaneous Tasks
+
+- Add missing version to the `package.json`
+
+## [null] - 2024-01-08
 
 ### Bug Fixes
 
