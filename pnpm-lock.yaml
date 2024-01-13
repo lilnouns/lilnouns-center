@@ -134,8 +134,8 @@ devDependencies:
     specifier: 0.6.0
     version: 0.6.0
   '@types/eslint':
-    specifier: 8.56.1
-    version: 8.56.1
+    specifier: 8.56.2
+    version: 8.56.2
   '@types/react':
     specifier: 18.2.47
     version: 18.2.47
@@ -1478,6 +1478,14 @@ packages:
     dependencies:
       '@types/estree': 1.0.3
       '@types/json-schema': 7.0.14
+    dev: false
+
+  /@types/eslint@8.56.2:
+    resolution: {integrity: sha512-uQDwm1wFHmbBbCZCqAlq6Do9LYwByNZHWzXppSnay9SuwJ+VRbjkbLABer54kcPnMSlG6Fdiy2yaFXm/z9Z5gw==}
+    dependencies:
+      '@types/estree': 1.0.3
+      '@types/json-schema': 7.0.14
+    dev: true
 
   /@types/estree@1.0.3:
     resolution: {integrity: sha512-CS2rOaoQ/eAgAfcTfq6amKG7bsN+EMcgGY4FAFQdvSj2y1ixvOZTUA9mOtCai7E1SYu283XNw7urKK30nP3wkQ==}
