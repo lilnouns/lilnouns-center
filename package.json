@@ -70,6 +70,7 @@
   "resolutions": {
     "node-fetch": ">=2.6.7",
     "glob-parent": ">=5.1.2",
-    "mime": ">=1.4.1"
+    "mime": ">=1.4.1",
+    "follow-redirects": ">=1.15.4"
   }
 }
