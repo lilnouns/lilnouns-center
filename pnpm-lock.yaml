@@ -84,8 +84,8 @@ dependencies:
     specifier: 3.3.1
     version: 3.3.1(prop-types@15.8.1)(react@18.2.0)
   react-icons:
-    specifier: 4.12.0
-    version: 4.12.0(react@18.2.0)
+    specifier: 5.0.1
+    version: 5.0.1(react@18.2.0)
   react-instantsearch-dom:
     specifier: 6.19.0
     version: 6.19.0(algoliasearch@4.22.1)(react-dom@18.2.0)(react@18.2.0)
@@ -134,8 +134,8 @@ devDependencies:
     specifier: 0.6.0
     version: 0.6.0
   '@types/eslint':
-    specifier: 8.56.1
-    version: 8.56.1
+    specifier: 8.56.2
+    version: 8.56.2
   '@types/react':
     specifier: 18.2.47
     version: 18.2.47
@@ -1478,6 +1478,14 @@ packages:
     dependencies:
       '@types/estree': 1.0.3
       '@types/json-schema': 7.0.14
+    dev: false
+
+  /@types/eslint@8.56.2:
+    resolution: {integrity: sha512-uQDwm1wFHmbBbCZCqAlq6Do9LYwByNZHWzXppSnay9SuwJ+VRbjkbLABer54kcPnMSlG6Fdiy2yaFXm/z9Z5gw==}
+    dependencies:
+      '@types/estree': 1.0.3
+      '@types/json-schema': 7.0.14
+    dev: true
 
   /@types/estree@1.0.3:
     resolution: {integrity: sha512-CS2rOaoQ/eAgAfcTfq6amKG7bsN+EMcgGY4FAFQdvSj2y1ixvOZTUA9mOtCai7E1SYu283XNw7urKK30nP3wkQ==}
@@ -6859,8 +6867,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-icons@4.12.0(react@18.2.0):
-    resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
+  /react-icons@5.0.1(react@18.2.0):
+    resolution: {integrity: sha512-WqLZJ4bLzlhmsvme6iFdgO8gfZP17rfjYEJ2m9RsZjZ+cc4k1hTzknEz63YS1MeT50kVzoa1Nz36f4BEx+Wigw==}
     peerDependencies:
       react: '*'
     dependencies:
