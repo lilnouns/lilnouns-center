@@ -9,6 +9,7 @@ overrides:
   glob-parent: '>=5.1.2'
   mime: '>=1.4.1'
   follow-redirects: '>=1.15.4'
+  axios: '>=1.6.0'
 
 dependencies:
   '@algolia/autocomplete-js':
@@ -42,7 +43,7 @@ dependencies:
     specifier: 4.22.1
     version: 4.22.1
   axios:
-    specifier: 1.6.5
+    specifier: '>=1.6.0'
     version: 1.6.5
   cookie:
     specifier: 0.6.0
@@ -1158,7 +1159,7 @@ packages:
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     dependencies:
       '@json-rpc-tools/utils': 1.7.6
-      axios: 0.21.4
+      axios: 1.6.5
       safe-json-utils: 1.1.1
       ws: 7.5.9
     transitivePeerDependencies:
@@ -2612,14 +2613,6 @@ packages:
     resolution: {integrity: sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==}
     engines: {node: '>=4'}
     dev: true
-
-  /axios@0.21.4:
-    resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
-    dependencies:
-      follow-redirects: 1.15.4
-    transitivePeerDependencies:
-      - debug
-    dev: false
 
   /axios@1.6.5:
     resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
