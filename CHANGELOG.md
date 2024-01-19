@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.0-alpha.11] - 2024-01-19
+
+### Miscellaneous Tasks
+
+- Add group of dependencies to Dependabot configs
+
 ## [1.0.0-alpha.10] - 2024-01-14
 
 ### Bug Fixes
