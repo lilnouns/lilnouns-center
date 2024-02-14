@@ -16,8 +16,8 @@ dependencies:
     specifier: 1.17.0
     version: 1.17.0(@algolia/client-search@4.22.1)(algoliasearch@4.22.1)(search-insights@2.13.0)
   '@algolia/autocomplete-theme-classic':
-    specifier: 1.16.0
-    version: 1.16.0
+    specifier: 1.17.0
+    version: 1.17.0
   '@docsearch/react':
     specifier: 3.5.2
     version: 3.5.2(@algolia/client-search@4.22.1)(@types/react@18.2.55)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)
@@ -289,8 +289,8 @@ packages:
       algoliasearch: 4.22.1
     dev: false
 
-  /@algolia/autocomplete-theme-classic@1.16.0:
-    resolution: {integrity: sha512-Z9V1wbbbnx3Ahat6sbA+4fjPZZyNdP3c3CTm9ncqi2RDIUgxdSLVNr7BT8j4GGin5BoQF9N1tTGSXwwRAYkZYw==}
+  /@algolia/autocomplete-theme-classic@1.17.0:
+    resolution: {integrity: sha512-FsW/J/mG1YIPv93/QQ7KxMVNXAiVi9accGgoK2y3zDz58WpVgUug97SUoQzP4I9EMZAZAHQo0QbWXxpqTWkcOA==}
     dev: false
 
   /@algolia/cache-browser-local-storage@4.22.1:
