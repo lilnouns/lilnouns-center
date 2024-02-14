@@ -10,7 +10,7 @@
     "test": ":"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "1.16.0",
+    "@algolia/autocomplete-js": "1.17.0",
     "@algolia/autocomplete-theme-classic": "1.16.0",
     "@docsearch/react": "3.5.2",
     "@headlessui/react": "1.7.18",
