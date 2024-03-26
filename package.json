@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-alpha.12",
+  "version": "1.0.0-alpha.13",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@algolia/autocomplete-js": "1.17.0",
     "@algolia/autocomplete-theme-classic": "1.17.0",
-    "@docsearch/react": "3.5.2",
+    "@docsearch/react": "3.6.0",
     "@headlessui/react": "1.7.18",
     "@heroicons/react": "2.1.1",
     "@notionhq/client": "2.2.14",
@@ -20,7 +20,7 @@
     "@tailwindcss/aspect-ratio": "0.4.0",
     "@types/jsonwebtoken": "9.0.6",
     "algoliasearch": "4.22.1",
-    "axios": "1.6.7",
+    "axios": "1.6.8",
     "cookie": "0.6.0",
     "dotenv": "16.4.5",
     "ethers": "5.6.8",
@@ -54,18 +54,18 @@
   "devDependencies": {
     "@tailwindcss/forms": "0.5.7",
     "@types/cookie": "0.6.0",
-    "@types/eslint": "8.56.5",
+    "@types/eslint": "8.56.6",
     "@types/react": "18.2.60",
     "@types/react-dom": "18.2.19",
     "@types/react-instantsearch-dom": "6.12.7",
     "@types/react-vertical-timeline-component": "3.3.6",
     "@types/uuid": "9.0.8",
-    "autoprefixer": "10.4.17",
+    "autoprefixer": "10.4.18",
     "eslint": "8.57.0",
     "eslint-config-next": "14.1.1",
     "postcss": "8.4.35",
     "tailwindcss": "3.4.1",
-    "typescript": "4.5.2"
+    "typescript": "5.4.2"
   },
   "resolutions": {
     "node-fetch": ">=2.6.7",
