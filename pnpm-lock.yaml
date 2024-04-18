@@ -122,8 +122,8 @@ dependencies:
     specifier: 3.5.2
     version: 3.5.2(react@18.2.0)
   siwe:
-    specifier: 2.3.1
-    version: 2.3.1(ethers@5.6.8)
+    specifier: 2.3.2
+    version: 2.3.2(ethers@5.6.8)
   uuid:
     specifier: 9.0.1
     version: 9.0.1
@@ -1421,11 +1421,11 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@spruceid/siwe-parser@2.1.1:
-    resolution: {integrity: sha512-AqaR/pJeSooqlW0Xw6zZByk6yfoORCaJOugY18I+k7GerLCMgPqiqAeKDtxFhdB2Ov/GdQKp6dDuIFG/AtAx9A==}
+  /@spruceid/siwe-parser@2.1.2:
+    resolution: {integrity: sha512-d/r3S1LwJyMaRAKQ0awmo9whfXeE88Qt00vRj91q5uv5ATtWIQEGJ67Yr5eSZw5zp1/fZCXZYuEckt8lSkereQ==}
     dependencies:
       '@noble/hashes': 1.3.2
-      apg-js: 4.2.1
+      apg-js: 4.3.0
       uri-js: 4.4.1
       valid-url: 1.0.9
     dev: false
@@ -2449,8 +2449,8 @@ packages:
       normalize-path: 3.0.0
       picomatch: 2.3.1
 
-  /apg-js@4.2.1:
-    resolution: {integrity: sha512-S3unf9jb9XrhmZYC27L5yits1p/+HqN6lksrkqKEv1U0Ytu+ENkIkOMV5+iutFjBaY9JTUCDQFS1svHsy3uNZA==}
+  /apg-js@4.3.0:
+    resolution: {integrity: sha512-8U8MULS+JocCnm11bfrVS4zxtAcE3uOiCAI21SnjDrV9LNhMSGwTGGeko3QfyK1JLWwT7KebFqJMB2puzfdFMQ==}
     dev: false
 
   /aproba@1.2.0:
@@ -7869,12 +7869,12 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /siwe@2.3.1(ethers@5.6.8):
-    resolution: {integrity: sha512-CkQu/g1tAOUL4e9s4qRQ3drb02bNaCtSUT3grQhTIfAZb0h0W9LtFrYSQQYgvoGUuQn2Zp9Nm2FTH/FNFO78AA==}
+  /siwe@2.3.2(ethers@5.6.8):
+    resolution: {integrity: sha512-aSf+6+Latyttbj5nMu6GF3doMfv2UYj83hhwZgUF20ky6fTS83uVhkQABdIVnEuS8y1bBdk7p6ltb9SmlhTTlA==}
     peerDependencies:
       ethers: ^5.6.8 || ^6.0.8
     dependencies:
-      '@spruceid/siwe-parser': 2.1.1
+      '@spruceid/siwe-parser': 2.1.2
       '@stablelib/random': 1.0.2
       ethers: 5.6.8
       uri-js: 4.4.1
