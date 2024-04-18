@@ -392,7 +392,7 @@ packages:
     resolution: {integrity: sha512-/+7jh7cd5rR2yQC7ME4SDcnAMiD1Ofn5Qq+E7afTJx9XSMOHkLR77/o6YcuJ60TfD1S+9lr7yjBLACon8gOuzQ==}
     dependencies:
       '@algolia/ui-components-shared': 1.2.2
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.24.4
     dev: false
 
   /@algolia/ui-components-shared@1.2.2:
@@ -410,13 +410,6 @@ packages:
       regenerator-runtime: 0.14.1
     dev: false
 
-  /@babel/runtime@7.24.1:
-    resolution: {integrity: sha512-+BIznRzyqBf+2wCTxcKE3wDjfGeCoVE61KSHGpkzqrLi8qxqFwBeUFyId2cxkTmm55fzDGnm0+yCxaxygrLUnQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.14.1
-    dev: false
-
   /@babel/runtime@7.24.4:
     resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
     engines: {node: '>=6.9.0'}
@@ -428,7 +421,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dependencies:
       '@metamask/safe-event-emitter': 2.0.0
-      '@solana/web3.js': 1.78.3
+      '@solana/web3.js': 1.91.6
       bind-decorator: 1.0.11
       bn.js: 5.2.1
       buffer: 6.0.3
@@ -1319,6 +1312,11 @@ packages:
     engines: {node: '>= 16'}
     dev: false
 
+  /@noble/hashes@1.4.0:
+    resolution: {integrity: sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==}
+    engines: {node: '>= 16'}
+    dev: false
+
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -1397,12 +1395,12 @@ packages:
       buffer: 6.0.3
     dev: false
 
-  /@solana/web3.js@1.78.3:
-    resolution: {integrity: sha512-qhpnyIlrj/4Czw1dBFZK6KgZBk5FwuJhvMl0C7m94jhl90yDC8b6w4svKwPjhB+OOrdQAzHyRp0+ocEs/Liw7w==}
+  /@solana/web3.js@1.91.6:
+    resolution: {integrity: sha512-dm20nN6HQvXToo+kM51nxHdtaa2wMSRdeK37p+WIWESfeiVHqV8XbV4XnWupq6ngt5vIckhGFG7ZnTBxUgLzDA==}
     dependencies:
       '@babel/runtime': 7.24.4
       '@noble/curves': 1.2.0
-      '@noble/hashes': 1.3.2
+      '@noble/hashes': 1.4.0
       '@solana/buffer-layout': 4.0.1
       agentkeepalive: 4.5.0
       bigint-buffer: 1.1.5
@@ -7063,7 +7061,7 @@ packages:
       algoliasearch: '>= 3.1 < 5'
       react: '>= 16.3.0 < 19'
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.24.4
       algoliasearch: 4.23.3
       algoliasearch-helper: 3.14.0(algoliasearch@4.23.3)
       prop-types: 15.8.1
@@ -7113,7 +7111,7 @@ packages:
       algoliasearch: '>= 3.1 < 5'
       react: '>= 16.8.0 < 19'
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.24.4
       algoliasearch: 4.23.3
       algoliasearch-helper: 3.14.0(algoliasearch@4.23.3)
       instantsearch.js: 4.56.8(algoliasearch@4.23.3)
@@ -7257,7 +7255,7 @@ packages:
       react: ^16.3.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.3.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@babel/runtime': 7.24.1
+      '@babel/runtime': 7.24.4
       file-loader: 6.2.0(webpack@5.91.0)
       make-cancellable-promise: 1.3.2
       make-event-props: 1.6.2
