@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@algolia/autocomplete-js": "1.17.0",
-    "@algolia/autocomplete-theme-classic": "1.17.0",
+    "@algolia/autocomplete-theme-classic": "1.17.1",
     "@docsearch/react": "3.6.0",
     "@headlessui/react": "1.7.19",
     "@heroicons/react": "2.1.3",
