@@ -47,7 +47,7 @@
     "react-stone-mason": "1.0.22",
     "react-vertical-timeline-component": "3.5.2",
     "siwe": "2.3.2",
-    "uuid": "9.0.1",
+    "uuid": "10.0.0",
     "uuidv4": "6.2.13",
     "wagmi": "0.4.12"
   },
